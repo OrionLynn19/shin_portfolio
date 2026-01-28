@@ -34,7 +34,7 @@ export default function RootLayout({
     <html lang="en">
      
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${montserrat.variable} antialiased`}
+        className={`pt-12 w-full min-h-screen bg-black ${geistSans.variable} ${geistMono.variable} ${montserrat.variable} antialiased`}
         style={{ fontFamily: 'Montserrat, Arial, sans-serif' }}
       >
          <Navbar />
