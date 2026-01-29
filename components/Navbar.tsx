@@ -18,7 +18,7 @@ interface CustomLinkProps {
             <span className={`
                 h-[2px] 
                 inline-block 
-                bg-crimson
+                bg-white
                 absolute 
                 left-0 
                 -bottom-0.5 
@@ -39,7 +39,7 @@ interface CustomLinkProps {
 
  export default function Navbar() {
    return (
-     <header className="absolute fixed top-0  w-full h-18 z-50 bg-white text-[10rem] px-2 py-2 items-center "> 
+     <header className="absolute fixed top-0  w-full h-18 z-50 bg-lightorange text-[10rem] px-2 py-2 items-center "> 
         <div className=" relative w-full h-full md:flex  "> 
             <div className="relative w-full h-full  font-bold  items-center justify-end flex ">
                <nav className="px-4 mx-8  flex items-center justify-between text-crimson">

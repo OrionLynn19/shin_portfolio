@@ -4,6 +4,7 @@
   --background: #ffffff;
   --foreground: #171717;
   --color-crimson : #781c2e; 
+  --color-lightorange : #fff9f2 ; 
 }
 @font-face {
   font-family: 'Amsterdam';
@@ -16,6 +17,7 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --color-crimson: var(--color-crimson);
+  --color-lightorange: var(--color-lightorange);
 }
 
 @media (prefers-color-scheme: dark) {
