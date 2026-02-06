@@ -32,12 +32,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-     
+
       <body
-        className={`pt-12 w-full min-h-screen bg-lightorange ${geistSans.variable} ${geistMono.variable} ${montserrat.variable} antialiased`}
+        className={`pt-12 w-full min-h-screen !bg-lightorange ${geistSans.variable} ${geistMono.variable} ${montserrat.variable} antialiased`}
         style={{ fontFamily: 'Montserrat, Arial, sans-serif' }}
       >
-         <Navbar />
+        <Navbar />
         {children}
       </body>
     </html>
